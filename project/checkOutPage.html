@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,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"
+      type="image/x-icon"
+    />
+
+    <style>
+      body {
+        font-family: Arial;
+        font-size: 17px;
+        padding: 8px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .checkout {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        width: 60%;
+        margin: auto;
+        border: 2 px solid green;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        /* margin: 0 -16px; */
+      }
+
+      /* .col-25 {
+  -ms-flex: 25%; /* IE10 */
+      /* flex: 25%;
+} */
+
+      .billing {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        /* background-color: red; */
+      }
+
+      .checkoutInner {
+        -ms-flex: 75%; /* IE10 */
+        flex: 75%;
+        /* border: 1px solid yellow; */
+        margin: auto;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      }
+
+      .billing,
+      .checkoutInner {
+        padding: 0 16px;
+      }
+
+      .container {
+        padding: 5px 20px 15px 20px;
+
+        border-radius: 3px;
+      }
+
+      input[type='text'] {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+      }
+
+      .btn {
+        background-color: #e4002a60;
+        color: white;
+        padding: 12px;
+        /* margin: 10px 0; */
+        margin: auto;
+        /* border: 5px solid red; */
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+        height: 30px;
+      }
+
+      .btn:hover {
+        background-color: #e4002b;
+        color: white;
+      }
+
+      a {
+        color: #2196f3;
+      }
+
+      hr {
+        border: 1px solid lightgrey;
+      }
+
+      span.price {
+        float: right;
+        color: grey;
+      }
+      .proceedTOPay {
+        text-decoration: none;
+        color: white;
+      }
+      .h3checkout {
+        color: white;
+        text-align: center;
+      }
+      .btncartToconfirm1 {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+      }
+      .btncartToconfirm {
+        background-color: #e4002a96;
+        border: none;
+        border-radius: 5px;
+        width: 160px;
+      }
+      .btncartToconfirm:hover {
+        background-color: #e4002b;
+      }
+      .btncartToconfirm11 {
+        text-decoration: none;
+        color: white;
+      }
+      .totalValueofcart {
+        color: #e4002b;
+        text-align: center;
+      }
+      @media (max-width: 800px) {
+        .checkout {
+          flex-direction: column-reverse;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="checkout">
+      <div class="checkoutInner">
+        <div class="container">
+          <div style="margin-left: 45%; margin-bottom: 50px; margin-top: 40px">
+            <img
+              class="kfcLogo"
+              onclick="window.location.href='index.html'"
+              src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
+              alt=""
+            />
+          </div>
+          <h2 class="totalValueofcart">0</h2>
+          <div class="checkout">
+            <div class="billing">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Enter Full Name"
+              />
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="abc@example.com"
+              />
+              <label for="adr"
+                ><i class="fa fa-address-card-o"></i> Address</label
+              >
+              <input
+                type="text"
+                id="adr"
+                name="address"
+                placeholder="542 W. 15th Street"
+              />
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="City Name"
+              />
+
+              <div class="checkout">
+                <div class="billing">
+                  <label for="state">State</label>
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    placeholder="State Name"
+                  />
+                </div>
+                <div class="billing">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001" />
+                </div>
+              </div>
+            </div>
+
+            <div class="billing">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color: navy"></i>
+                <i class="fa fa-cc-amex" style="color: blue"></i>
+                <i class="fa fa-cc-mastercard" style="color: red"></i>
+                <i class="fa fa-cc-discover" style="color: orange"></i>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input
+                type="text"
+                id="cname"
+                name="cardname"
+                placeholder="Card Holder Name"
+              />
+              <label for="ccnum">Credit card number</label>
+              <input
+                type="text"
+                id="ccnum"
+                name="cardnumber"
+                placeholder="1111-2222-3333-4444"
+              />
+              <label for="expmonth">Exp Month</label>
+              <input
+                type="text"
+                id="expmonth"
+                name="expmonth"
+                placeholder="DD / DD/MM/YYYY"
+              />
+              <div class="checkout">
+                <div class="billing">
+                  <label for="expyear">Exp Year</label>
+                  <input
+                    type="text"
+                    id="expyear"
+                    name="expyear"
+                    placeholder="2018"
+                  />
+                </div>
+                <div class="billing">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadr" />
+            Shipping address same as billing
+          </label>
+
+          <div class="btncartToconfirm1">
+            <button class="btncartToconfirm">
+              <a class="btncartToconfirm11" href="confirmation.html">
+                <h3>Confirm</h3></a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  var total = JSON.parse(localStorage.getItem('total')) || 0;
+
+  document.querySelector(
+    '.totalValueofcart'
+  ).textContent = `Your Total Bill ₹${total}`;
+</script>

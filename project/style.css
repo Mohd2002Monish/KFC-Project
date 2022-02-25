@@ -1,0 +1,499 @@
+.show-modal {
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+
+  right: 2rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.menu12 {
+  color: black;
+}
+.menu123 {
+  text-decoration: none;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+.signIn1 {
+  text-decoration: none;
+  color: black;
+  margin-top: 10%;
+}
+.modal {
+  position: sticky;
+  margin-left: 20%;
+  width: 50%;
+  margin-top: auto;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  width: 80%;
+}
+.navConatiner {
+  width: 100%;
+  height: 120px;
+  margin-left: 10%;
+
+  display: flex;
+}
+.box1 {
+  width: 40%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  width: 40%;
+  height: auto;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.kfcLogo {
+  width: 78px;
+  height: 23px;
+}
+.menu {
+  font-weight: 400;
+
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.deal {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.kfcLogo1 {
+  cursor: pointer;
+}
+
+.signIn {
+  margin-left: 20px;
+  font-weight: 750;
+}
+.box3 {
+  display: flex;
+  width: 20%;
+
+  align-items: center;
+}
+.cartValue {
+  font-weight: 400;
+  margin-left: 20px;
+  align-items: center;
+}
+.kfcBuket {
+  width: 51px;
+  height: 51px;
+  cursor: pointer;
+}
+.kfcBuket1 {
+  margin-left: 20px;
+}
+.line {
+  margin-left: 20px;
+  width: 0.1px;
+  height: 40%;
+
+  background-color: rgba(128, 128, 128, 0.219);
+}
+.start {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.startOrderBtn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px red solid;
+  background-color: #e4002b;
+  border-radius: 30px;
+  width: 160px;
+  height: 40px;
+  margin-left: 40px;
+}
+.imgPoster1 {
+  width: 100%;
+}
+.welcomKfc {
+  margin-top: -40px;
+  border: rgba(128, 128, 128, 0.089) solid 0.5px;
+  height: 160px;
+  background-color: rgba(128, 128, 128, 0.089);
+}
+.welcomKfc1 {
+  margin-left: 12%;
+  margin-top: 80px;
+}
+.bar {
+  margin-top: -8px;
+  margin-left: 5px;
+  width: 6px;
+  height: 20px;
+  background-color: #e4002b;
+}
+.bars {
+  display: flex;
+  margin-left: 12%;
+}
+.headingBrowse {
+  margin-top: 70px;
+}
+.headingText {
+  margin-left: 12%;
+  display: flex;
+  align-items: center;
+}
+.hrline {
+  height: 1px;
+  width: 70%;
+  background: rgba(128, 128, 128, 0.37);
+  margin-left: 30px;
+}
+
+.mainContent {
+  width: 80%;
+  margin-left: 12%;
+}
+.imgManu {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.boxManu {
+  width: 100%;
+  height: 100%;
+  background-color: #2021241a;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 3px;
+}
+.menuText {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.menuText1 {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (2, 1fr);
+  grid-gap: 30px;
+}
+.imgManu1 {
+  width: 80%;
+  height: 283px;
+  margin-left: 9%;
+}
+.discountHome {
+  margin-top: 50px;
+  height: 650px;
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+}
+.bar2 {
+  margin-left: 12px;
+  width: 14px;
+  height: 40px;
+  background-color: #e4002b;
+}
+.bar2flex {
+  display: flex;
+  margin-left: 12%;
+}
+.offersDeals {
+  display: flex;
+  margin-left: 12%;
+  justify-content: space-between;
+}
+.offers {
+  color: white;
+}
+.otherDeal2 {
+  color: white;
+  text-decoration: none;
+}
+.otherDeal1 {
+  text-align: right;
+  margin-right: 12%;
+}
+.mainContentOffers {
+  margin-left: 12%;
+  width: 85%;
+
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(auto, 1fr);
+  grid-gap: 20px;
+}
+.boxOffers {
+  width: 100%;
+  height: 75%;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imgOffers {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.offersText {
+  text-align: center;
+  color: #e4002b;
+  font-weight: 700;
+  font-size: 30px;
+  height: 40px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+.offerstextP {
+  text-align: center;
+  color: black;
+  width: 80%;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.offerstextP1 {
+  display: flex;
+  justify-content: center;
+}
+.boxFot {
+  display: flex;
+  margin-left: 12px;
+  width: 90%;
+  height: 50px;
+  justify-content: space-between;
+  background-color: white;
+}
+.redeemFoot1 {
+  width: 100px;
+  height: 44px;
+  border: 1px black solid;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+.redeemFoot {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+.textredeem {
+  font-weight: 900;
+  margin-top: 10px;
+}
+.redeemFoot1:hover {
+  background-color: rgb(33, 37, 41);
+}
+.redeemFoot:hover {
+  color: white;
+}
+.startModelCon {
+  width: 100%;
+  height: 120px;
+}
+
+.modelTopBorder {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -93px;
+}
+.modeltoptext {
+  text-align: center;
+}
+.pickup {
+  width: 90%;
+  height: 40px;
+  border: 1px black solid;
+  margin-top: 20px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pickup1 {
+  margin-left: 12%;
+}
+.pickup2 {
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+.DetailFoot {
+  color: grey;
+  font-size: small;
+  font-weight: light;
+  width: 45px;
+  height: 40px;
+  font-size: 12px;
+}
+.DetailFoot1 {
+  height: 40px;
+}
+.DetailFoot1:hover {
+  background-color: rgba(128, 128, 128, 0.267);
+  color: grey;
+  font-size: small;
+  font-weight: light;
+}
+.horiDeal {
+  margin-top: -50px;
+  color: grey;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.pickup21 {
+  text-align: none;
+  text-decoration: none;
+  color: black;
+}
+
+.boxFooterIn {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.imgfooter {
+  width: 55px;
+  height: 55px;
+  margin-top: 30px;
+}
+.boxsmallfooter {
+  width: 60px;
+  height: 60px;
+}
+.hFooter {
+  margin-bottom: -15px;
+}
+.cpyright {
+  text-align: center;
+}
+.dealPoster1 {
+  height: 300px;
+  width: 100%;
+  background-image: url(https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg);
+}
+.posterText {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 8%;
+}
+.posterh1 {
+  font-size: 50px;
+  color: white;
+}
+.DealOffers {
+  margin-left: 12.5%;
+}
+.dealMainContent {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(2, 470px);
+  grid-gap: 20px;
+}
+.boxContentDael {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.specialdeal {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #e4002b;
+  border-radius: 6px;
+}
+.specialdealtext {
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+.specaildealDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+.specaildiv2 {
+  display: flex;
+  justify-content: center;
+}
+.specaildiv2a {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.specialdiv22 {
+  width: 100px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px white solid;
+  border-radius: 40px;
+}
+.specaildiv2aa {
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+}
+.specialdiv22:hover {
+  background-color: white;
+}
+.specaildiv2a:hover {
+  color: black;
+}
